@@ -11,12 +11,12 @@ class Level2(Level):
 
     def background_sound(self, volume=0.25):
         pygame.mixer.init()
-        pygame.mixer.music.load("resources/audio/moonlight.wav")
+        pygame.mixer.music.load("resources/audio/myangel.wav")
         pygame.mixer.music.play(-1, 0.0)
         pygame.mixer.music.set_volume(volume)
 
     def tiles(self):
-        return pygame.image.load('resources/images/grass.png')
+        return pygame.image.load('resources/images/bglove.jpg')
 
     def draw(self):
         for x in range(int(self.resolution[0]/self.tiles().get_width()+1)):

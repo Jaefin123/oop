@@ -20,7 +20,7 @@ scene.setup_level(
   Level5,
 )
 
-player = Player(scene, Arrow())
+player = Player(scene, lope())
 game_controller = GameController(player)
 
 running = True
